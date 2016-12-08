@@ -17,6 +17,13 @@ namespace InstagramTutorial
         {
             
             string token = textBoxAccessToken.Text.ToString();
+
+            if (token=="")
+            {
+                MessageBox.Show("Bitte erst einen Access-Token eingeben!");
+                return;
+            }
+
             string targetUrl 
                 = "https://api.instagram.com/v1/users/self/?access_token=" 
                 + token;
