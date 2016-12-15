@@ -4,6 +4,14 @@ using System.Runtime.Serialization.Json;
 using System.IO;
 using System.Net;
 
+
+/*
+    Code zu folgendem Tutorial aus meinem Blog:
+
+    http://frank-it-beratung.com/blog/2016/11/30/tutorial-zugriff-auf-instagram-mit-c/
+
+*/
+
 namespace InstagramTutorial
 {
     public partial class Form1 : Form
